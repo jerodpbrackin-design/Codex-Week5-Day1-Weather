@@ -1,3 +1,11 @@
 * {
-    background: linear-gradient(135deg, #f8f9fa, #e3f2fd)
+    background: sunset;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:600;
+}
+
+.first-row{
+    display:inline-flex;
+    justify-content: flex-start;
+    gap:8px;
 }

@@ -11,12 +11,17 @@
   <body>
     <main>
       <h3>Weather App</h3>
-      <input type="text" id="latitude" placeholder="Enter Latitude" />
-      <input type="text" id="longitude" placeholder="Enter Longitude" />
-      <button id="getWeatherButton" onclick="fetchWeather()">
-        Get Weather
-      </button>
-      <p id="temperatureResult">The current temperature is </p>
+      <p>Enter the latitude and longitude of your location</p>
+      <div class="first-row">
+
+        <input type="text" id="latitude" placeholder="Enter Latitude" />
+        <input type="text" id="longitude" placeholder="Enter Longitude" />
+        <button id="getWeatherButton" onclick="fetchWeather()">
+          Get Weather
+        </button>
+      </div>
+
+      <p id="temperatureResult">The current temperature is</p>
     </main>
   </body>
 </html>
